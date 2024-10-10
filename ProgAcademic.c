@@ -17,11 +17,11 @@ typedef enum {
 
 // Estrutura para representar uma disciplina.
 typedef struct {
-    char codigo[10];                // Código da disciplina (ex: "MAT101").
-    char titulo[100];               // Título da disciplina (ex: "Matemática I").
+    char codigo[10];                // Código da disciplina.
+    char titulo[100];               // Título da disciplina.
     int cargaHoraria;               // Carga horária da disciplina.
     int semestre;                   // Semestre em que a disciplina é oferecida.
-    char prerequisitos[MAX_PREREQUISITOS][10]; // Lista de pré-requisitos (códigos das disciplinas).
+    char prerequisitos[MAX_PREREQUISITOS][10]; // Lista de pré-requisitos.
     int numPrerequisitos;           // Número de pré-requisitos.
     TipoDisciplina tipo;            // Tipo da disciplina (Obrigatória ou Optativa).
 } Disciplina;

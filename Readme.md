@@ -2,6 +2,10 @@
 
 Este é um programa simples de gestão acadêmica para um aluno universitário. Ele permite o cadastro e gerenciamento de disciplinas e atividades, além de exibir a matriz curricular baseada no semestre de entrada. O sistema também possui funcionalidade de paginação para facilitar a visualização de grandes listas de disciplinas.
 
+Alunos:
+    Victor Rocha Costa
+    Ana Julia Rodrigues Almeida
+
 ## Funcionalidades
 
 1. **Listar Disciplinas Disponíveis**  
