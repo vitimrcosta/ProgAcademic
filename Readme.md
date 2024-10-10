@@ -1,52 +1,52 @@
-# Sistema de Gestão Acadêmica
+# Sistema de GestÃ£o AcadÃªmica
 
-Este é um programa simples de gestão acadêmica para um aluno universitário. Ele permite o cadastro e gerenciamento de disciplinas e atividades, além de exibir a matriz curricular baseada no semestre de entrada. O sistema também possui funcionalidade de paginação para facilitar a visualização de grandes listas de disciplinas.
+Este Ã© um programa simples de gestÃ£o acadÃªmica para um aluno universitÃ¡rio. Ele permite o cadastro e gerenciamento de disciplinas e atividades, alÃ©m de exibir a matriz curricular baseada no semestre de entrada. O sistema tambÃ©m possui funcionalidade de paginaÃ§Ã£o para facilitar a visualizaÃ§Ã£o de grandes listas de disciplinas.
 
 Alunos:
-    Victor Rocha Costa
+    Victor Rocha Costa,
     Ana Julia Rodrigues Almeida
 
 ## Funcionalidades
 
-1. **Listar Disciplinas Disponíveis**  
-   Exibe uma lista de todas as disciplinas disponíveis.
+1. **Listar Disciplinas DisponÃ­veis**  
+   Exibe uma lista de todas as disciplinas disponÃ­veis.
 
 2. **Matricular em uma Disciplina**  
-   Permite ao aluno se matricular em disciplinas disponíveis com base em seu código.
+   Permite ao aluno se matricular em disciplinas disponÃ­veis com base em seu cÃ³digo.
 
 3. **Listar Disciplinas Matriculadas**  
-   Exibe uma lista das disciplinas nas quais o aluno está atualmente matriculado.
+   Exibe uma lista das disciplinas nas quais o aluno estÃ¡ atualmente matriculado.
 
 4. **Cadastrar Atividade na Agenda**  
-   Permite ao aluno registrar atividades e compromissos acadêmicos com uma descrição e uma data.
+   Permite ao aluno registrar atividades e compromissos acadÃªmicos com uma descriÃ§Ã£o e uma data.
 
 5. **Mostrar Agenda**  
    Exibe todas as atividades e compromissos cadastrados na agenda do aluno.
 
 6. **Apresentar Matriz Curricular (Baseado no Semestre de Entrada)**  
-   Mostra a matriz curricular a partir do semestre de entrada do aluno, utilizando paginação para organizar a visualização quando há muitas disciplinas.
+   Mostra a matriz curricular a partir do semestre de entrada do aluno, utilizando paginaÃ§Ã£o para organizar a visualizaÃ§Ã£o quando hÃ¡ muitas disciplinas.
 
 ## Estrutura do Programa
 
-O programa é estruturado em torno de vários componentes principais:
+O programa Ã© estruturado em torno de vÃ¡rios componentes principais:
 
-- **Disciplinas**: Representa as informações sobre cada disciplina, incluindo código, nome, carga horária, semestre, pré-requisitos e tipo (obrigatória ou optativa).
+- **Disciplinas**: Representa as informaÃ§Ãµes sobre cada disciplina, incluindo cÃ³digo, nome, carga horÃ¡ria, semestre, prÃ©-requisitos e tipo (obrigatÃ³ria ou optativa).
   
-- **Histórico**: Gerencia as disciplinas em que o aluno já se matriculou.
+- **HistÃ³rico**: Gerencia as disciplinas em que o aluno jÃ¡ se matriculou.
   
-- **Agenda**: Gerencia as atividades acadêmicas do aluno.
+- **Agenda**: Gerencia as atividades acadÃªmicas do aluno.
   
-- **Matriz Curricular**: Organiza as disciplinas por semestre e permite apresentar ao aluno a sequência correta de disciplinas conforme seu semestre de entrada.
+- **Matriz Curricular**: Organiza as disciplinas por semestre e permite apresentar ao aluno a sequÃªncia correta de disciplinas conforme seu semestre de entrada.
 
 ## Requisitos
 
 - Sistema operacional Windows (para o uso de `windows.h` no console).
-- Compilador C (por exemplo, GCC ou MinGW para compilar o código no Windows).
-- Arquivo binário `disciplinas.bin`, que contém as disciplinas oferecidas pelo curso.
+- Compilador C (por exemplo, GCC ou MinGW para compilar o cÃ³digo no Windows).
+- Arquivo binÃ¡rio `disciplinas.bin`, que contÃ©m as disciplinas oferecidas pelo curso.
 
 ## Como Executar
 
-1. **Compilação**: Compile o programa utilizando um compilador C. Exemplo de comando no terminal:
+1. **CompilaÃ§Ã£o**: Compile o programa utilizando um compilador C. Exemplo de comando no terminal:
 
    ```bash
    gcc sistema_academico.c -o sistema_academico
@@ -54,33 +54,33 @@ O programa é estruturado em torno de vários componentes principais:
 
 ## Como Utilizar
 
-Ao executar o programa, um menu será exibido com as seguintes opções
+Ao executar o programa, um menu serÃ¡ exibido com as seguintes opÃ§Ãµes
 
 1. **Listar Disciplinas**: 
-   Lista todas as disciplinas disponíveis no arquivo disciplinas.bin.
+   Lista todas as disciplinas disponÃ­veis no arquivo disciplinas.bin.
 
 2. **Matricular em uma Disciplina:**: 
-   Lista todas as disciplinas disponíveis no arquivo disciplinas.bin.
+   Lista todas as disciplinas disponÃ­veis no arquivo disciplinas.bin.
 
 3. **Listar Disciplinas Matriculadas:** 
-   Mostra todas as disciplinas em que o aluno já está matriculado.
+   Mostra todas as disciplinas em que o aluno jÃ¡ estÃ¡ matriculado.
 
 4. **Cadastrar Atividade na Agenda:** 
-   Adiciona uma nova atividade na agenda do aluno, informando uma descrição e a data.
+   Adiciona uma nova atividade na agenda do aluno, informando uma descriÃ§Ã£o e a data.
 
 5. **Mostrar Agenda:** 
    Exibe todas as atividades cadastradas na agenda do aluno.
 
 6. **Apresentar Matriz Curricular (Baseado no Semestre de Entrada):** 
-   Mostra a matriz curricular a partir do semestre de entrada do aluno, com suporte a paginação.
+   Mostra a matriz curricular a partir do semestre de entrada do aluno, com suporte a paginaÃ§Ã£o.
 
 7. **Sair:** Encerra o programa.
 
-## Funcionalidade de Paginação
+## Funcionalidade de PaginaÃ§Ã£o
 
-A funcionalidade de paginação é usada na exibição da matriz curricular para dividir grandes listas de disciplinas em blocos menores, permitindo que o usuário navegue pelas páginas de maneira mais eficiente.
+A funcionalidade de paginaÃ§Ã£o Ã© usada na exibiÃ§Ã£o da matriz curricular para dividir grandes listas de disciplinas em blocos menores, permitindo que o usuÃ¡rio navegue pelas pÃ¡ginas de maneira mais eficiente.
 
-## Exemplo de Execução
+## Exemplo de ExecuÃ§Ã£o
 
 --- Menu ---
 1. Listar Disciplinas
@@ -90,15 +90,15 @@ A funcionalidade de paginação é usada na exibição da matriz curricular para divi
 5. Mostrar Agenda
 6. Apresentar Matriz Curricular (Baseado no Semestre de Entrada)
 0. Sair
-Escolha uma opção: 1
+Escolha uma opÃ§Ã£o: 1
 
-Disciplinas Disponíveis:
-INF 111, Nome: Introdução à Engenharia de Software
-MAES 111, Nome: Fundamentos de Álgebra e Cálculo
+Disciplinas DisponÃ­veis:
+INF 111, Nome: IntroduÃ§Ã£o Ã  Engenharia de Software
+MAES 111, Nome: Fundamentos de Ãlgebra e CÃ¡lculo
 ...
 
 ## Notas
 
-- O arquivo disciplinas.bin deve conter as disciplinas em formato binário, e o programa fará a leitura dele ao iniciar.
+- O arquivo disciplinas.bin deve conter as disciplinas em formato binÃ¡rio, e o programa farÃ¡ a leitura dele ao iniciar.
 - O arquivo disciplinas.bin deve estar na mesma pasta que o programa.
 - O programa foi desenvolvido em C e utiliza a biblioteca windows.h para compatibilidade com o console do Windows.
